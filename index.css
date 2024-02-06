@@ -872,3 +872,24 @@ button h3{
     cursor: pointer;
     padding-left: 0px;
 }   
+
+
+@media screen and (max-width:430px) {
+    .founder{
+        margin-top: 400px;
+        flex-wrap: wrap;
+    }
+    .founder .founderpic{
+        width: 100%;
+        /* background: yellow; */
+    }
+    .founderText{
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .founder .colorText2 h1{
+        text-align: center;
+    }
+    
+}
