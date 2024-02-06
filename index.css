@@ -10,6 +10,12 @@ body{
     height: 1500px;
     /* background: gray; */
 }
+.colorText{
+    color: #F5A121;
+}
+.colorText2 {
+    color:#08548D;
+}
 header{
     width: 100%;
     /* background: brown; */
@@ -70,14 +76,13 @@ header .logo{
     /* background: indianred; */
 }
 
-.colorText h1{
-    color: #F5A121;
-    padding-left: 50px;
+.text .colorText h1{
+    margin-left: 50px;
     
 }
 .colorText2 h1{
-    color:#08548D;
-    padding-left: 50px;
+    padding-left: 47px;
+    margin-top: 20px;
 }
 
 .text .info{
@@ -257,6 +262,7 @@ header .logo{
     color:#08548D;
     padding-left: 0px;
     padding-top: 4px;
+    margin-top: 5px;
 }
 .aboutInfo{
     width: 95%;
@@ -437,7 +443,6 @@ header .logo{
 
 .card1 .firsthalf {
     width: 95%;
-    height: 80px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -494,3 +499,376 @@ header .logo{
     }
 
 }
+
+.why{
+    width: 100%;
+    /* height: 700px; */
+    /* background: green; */
+    margin-top: 50px;
+    display: flex;
+  
+}
+.whyText{
+    width: 50%;
+    /* background: blue; */
+       /* display: flex; */
+}
+
+.whyHead{
+    width: 100%;
+    display: flex;
+}
+element.style {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+ .colorText2  h1{
+    margin-left:4px;
+}
+
+.whyText .sub{
+    width: 80%;
+
+    /* background: blueviolet; */
+    margin-top: 20px;
+}
+.whyText .sub p {
+    padding-left: 55px;
+}
+.advantages{
+    width: 100%;
+    /* background: yellow; */
+    margin-top: 30px;
+    
+}
+.commission{
+    width: 100%;
+    /* background: gray; */
+}
+.commission .pic{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+.commission .pic h3{
+    margin-top: 6px;
+    margin-left: 13px;
+}
+.commission .pic img{
+    margin-left: 50px;
+    width: 5%;
+}
+
+.commission .commissionSub {
+    /* background: gold; */
+    margin-top: 5px;
+    font-size:15px;
+    margin-left: 86px;
+}
+.whyPic{
+    width: 70%;
+    /* background: white; */
+    position: relative;
+}
+.whyPic img{
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width:430px) {
+    .why{
+        flex-wrap: wrap;
+    }
+    .whyText{
+        width: 100%;
+        
+    }
+    .whyPic{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.proceedingCircles{
+    width: 100%;
+    /* background: gray; */
+    text-align: center;
+}
+.proceedingCircles img{
+    width: 10%;
+}
+@media screen and (max-width:430px) {
+    .proceedingCircles img{
+        width: 20%;
+    }
+}
+
+.jobs{
+    width: 100%;
+    /* height: 400px; */
+    /* background: yellow; */
+    margin-top: 50px;
+}
+.jobsHeader{
+    width: 100%;
+    text-align: center;
+    /* background: orange; */
+}
+.jobsHeader span h1{
+    font-size: 40px;
+}
+
+.jobsHeader p {
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.jobsCards{
+    width: 100%;
+    /* height: 500px; */
+    /* background: green; */
+    margin-top: 15px;
+}
+.jobsCards .row{
+    display: flex
+}
+.jobsCards .card1{
+    height: 210px;
+}
+.jobsCards .card1 .firsthalf{
+    margin-top: 20px;
+    justify-content: left;
+   
+}
+.jobsCards .card1 .firsthalf svg{
+    width: 25px;
+    height: 20px;
+    margin-left: 20px;
+}
+.firsthalf .text {
+    margin-left: 10px;
+}
+
+.card1 .courseName{
+    margin-top: 30px;
+}
+.courseName h2 {
+    padding-left: 30px;
+}
+.courseDescription {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.card1 .footer{
+    width: 100%;
+    height: 50px;
+    /* background: yellow; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around
+}
+.card1 .footer .charger{
+    width: 50%;
+    height: 50px;
+    /* background: gray; */
+    display: flex;
+
+}
+.charger img{
+    margin-left: 18px;
+    width: 10%;
+    height: 60%;
+}
+.charger h4{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.footer .join{
+    width: 40%;
+    /* height: 100px; */
+    /* background: orchid; */
+    text-align: center;
+}
+.join button{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: orange;
+
+}
+button h3{
+    color: white;
+}
+
+@media screen and (max-width:780px) {
+    .card1 .footer{
+        margin-top: 17px;
+    }
+    .footer button{
+        height: 85%;
+        margin-right: 10px;
+    }
+    
+    .card1 .footer .charger {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .jobsCards .row{
+        flex-wrap: wrap;
+    }
+    .jobsHeader{
+        text-align: left;
+    }
+    .jobsHeader .colorText2 h1{
+        padding-left: 40px;
+    }
+    .jobsHeader p{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+}
+
+.income{
+    width: 100%;
+    height: 300px;
+    /* background:blueviolet; */
+    margin-top: 100px;
+    display: flex
+}
+.incomeText{
+    width: 50%;
+    height: 200px;
+    /* background: orangered; */
+    
+}
+.incomeTextHeader{
+  margin-left: 40px;
+  /* background: yellow; */
+}
+.incomeTextHeader .colorText2 h1{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+.incomeTextSub{
+    /* background:indianred; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.incomeTextSub p{
+    font-weight: 600;
+}
+
+.joinNow{
+    margin-top: 40px;
+    width: 100%;
+    height: 70px;
+    /* background: hotpink; */
+}
+.joinNow button{
+    background: orange;
+    /* width: 60%; */
+    height: 50px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: left;
+}
+.joinNow button h3{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size:20px;
+    font-weight: bold;
+}
+.incomePic{
+    width: 50%;
+    /* background: yellowgreen; */
+    position: relative;
+    margin-right: 30px;
+}
+.incomePic img{
+    width: 100%;
+    height: 350px;
+}
+@media screen and (max-width:430px) {
+    .income{
+        flex-wrap: wrap;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .incomeText{
+        width: 100%;
+    }
+    .incomePic{
+        width: 100%;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+    .incomePic img{
+        width: 100%;
+    }
+}
+
+.founder{
+    width: 100%;
+    height: 500px;
+    /* background: palegreen; */
+    margin-top: 100px;
+    display: flex;
+}
+.founderpic{
+    margin-top: 50px;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    /* background: white; */
+}
+.founderpic img{
+    width: 80%;
+    height: 400px;
+    padding-left: 80px;
+}
+.founderText{
+    margin-top: 50px;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    /* background: olive; */
+}
+.founderHead{
+    width: 100%;
+    height: 100px;
+    /* background: violet; */
+   margin-top: 50px;
+}
+.founderHead .colorText2 h1{
+    text-align: start;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.founderDetail{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.founderDetail p{
+    text-transform: uppercase;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+.social{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.social img{
+    width: 40%;
+    height: 80px;
+    cursor: pointer;
+    padding-left: 0px;
+}   
