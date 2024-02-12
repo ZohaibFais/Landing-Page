@@ -7,7 +7,7 @@ body{
     background-color: #f1f1f1;
 }
 .container{
-    height: 1500px;
+    /* height:2000px; */
     /* background: gray; */
 }
 .colorText{
@@ -1085,51 +1085,108 @@ button h3{
 
 footer{
     width: 100%;
-    height: 300px;
+    height: 370px;
     background: #2867B1;
     margin-top: 150px;
 }
 .textarea{
     width: 100%;
-    height: 250px;
-    /* background: gray; */
+    /* height: 250px; */
+    /* background: gray */
     display: flex;
     justify-content: space-between;
 }
 .summary{
     width: 20%;
-    height: 200px;
-    margin-left: 10px;
-    background: powderblue;
+    /* height: 200px; */
+    margin-left: 20px;
+    /* background: powderblue; */
     /* text-align: center; */
     color: white;
 }
-.company{
+.company, .help, .company2,.categories{
     width: 15%;
-    height: 200px;
-    background: powderblue;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
 }
-.help{
-    width: 15%;
-    height: 200px;
-    background: powderblue;
-}
-.company2{
-    width: 15%;
-    height: 200px;
-    background: powderblue;
+.company h4, .help h4, .company2 h4, .categories h4 {
+    padding-top: 20px;
 }
 .categories{
-    width: 15%;
-    height: 200px;
-    background: powderblue;
-    margin-right:10px ;
+    margin-right: 30px;
 }
 .summary p{
-    width: 90%;
+    width: 100%;
     padding-top: 10px;
     padding-left: 10px;
 }
-.summary h1{
+.summary h1{  
+    padding-top: 20px;  
     padding-left: 20px;
+}
+.summary img {
+    width: 60%;
+    height: 40px;
+    padding-left: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 40px;
+}
+
+.copyright{
+    width: 100%;
+    /* height: 100px; */
+    /* background: olivedrab; */
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:780px)  {
+    footer{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    footer{
+        margin-top: 500px;
+        height: fit-content
+    }
+    .textarea{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .summary{
+        width: 100%;
+    }
+    .summary img{
+        height: 70px;
+       
+    }
+    .summary h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .summary p {
+        width: 98%;
+        padding-top: 21px;
+        padding-left: 0px;
+    }
+    .company, .help, .company2, .categories {
+        width: 50%;
+    }
+    .company{
+        padding-left: 50px;
+    }
+    .categories{
+        margin-right: 0px;
+    }
+    .company2{
+        padding-top: 10px;
+        padding-left: 50px;
+    }
 }
